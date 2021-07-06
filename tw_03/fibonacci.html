@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Fibonacci</h1>
+    <script>
+        var fibonacci =[];
+        let var1=1;
+        let var2=1;
+        let var3=0;
+        var i = Number(prompt("Please Enter a number:"))
+       
+
+        while (var1<=100000 ){
+            fibonacci.push(var1);
+            var3=var1+var2;
+            var1=var2;
+            var2=var3;
+            
+        }
+
+         function fibo(a) {
+            return fibonacci[a];            
+        }
+        console.log(fibonacci);
+        console.log(fibo(i));
+    </script>
+    
+
+
+//     <!-- <script>
+//         function fibonacci(n) {
+//     let fibo = [1,1]
+//     for (let i=0;i<n-1;i++) {
+//         fibo.push(fibo[fibo.length-1]+fibo[fibo.length-2])
+//     }
+//     return fibo[fibo.length-1]
+// }
+// console.log(fibonacci(12));
+//     </script> -->
+// <!-- 
+
+//     <script>
+//         let istenenFibonacciSayisi = prompt("Kaçıncı fibonacci sayısını öğrenmek istiyorsunuz?");
+//     let a = 0;
+//     let b = 1;
+//     let toplam;
+//     let fibonacciSayilari = [];
+//     for (let i = 0; i < istenenFibonacciSayisi; i++) {
+//         toplam = a + b ;  
+//         a = b;           
+//         b = toplam;         
+//         fibonacciSayilari.push(toplam);
+//     }
+//     console.log(`Fibonacci (${istenenFibonacciSayisi}) : ${toplam}`);
+//     console.log("Fibonacci Sayıları :" + fibonacciSayilari);
+//     </script> -->
+</body>
+</html>

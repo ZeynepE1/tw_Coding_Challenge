@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    width:100%;
+    height: 300px;
+    border: 2px solid blue;
+    padding: 50px;
+}
+
+.image-container{
+    width: 25%;
+    background-image: url(https://www.w3schools.com/css/pineapple.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    float: left;
+}
+
+
+.content{
+    width: 75%;
+    float: right;
+    height: 100%;
+    padding-left:30px;
+    overflow: auto;
+}
+
+.content h1{
+    margin-bottom: 5px;
+}
+

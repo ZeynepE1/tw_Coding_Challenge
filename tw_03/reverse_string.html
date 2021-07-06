@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Reverse String
+    </h1>
+    <!-- <script>
+        var str=prompt("please enter a sentence:");
+        
+
+        function reverse(str1) {
+            var newStr= str1.split("");
+            return console.log(newStr.reverse().join(""));
+
+
+            
+           for (let i = str1.length-1; i =0; i--) {
+            newStr += str1[i];
+            return newStr;
+            
+            } 
+        }
+
+        console.log(str);
+        reverse(str);
+        
+        
+
+    </script> -->
+
+    <!-- <script>
+        var arr =[3,5,"Arsene",8,5,7,4,5,"Arsene",5,7];
+        var newArr= arr.slice(arr.indexOf ("Arsene"),arr.lastIndexOf("Arsene"))
+        console.log(newArr);
+        var sum =0;
+
+        for (let i = 1; i < newArr.length; i++){
+            sum+=newArr[i];      
+         
+        
+        }
+        console.log(sum);
+
+
+
+
+    </script> -->
+
+    <script>
+        
+        var str=prompt("please enter a sentence:");
+        let newStr="";
+        for (let i = str.length-1; i >=-1; i--) {
+            newStr = newStr + str[i];
+        
+            
+        } 
+
+        console.log(newStr);
+
+
+
+    </script>
+</body>
+</html>

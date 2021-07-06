@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    width:100%;
+    height: 300px;
+    border: 2px solid blue;
+    padding: 50px;
+}
+
+.image-container{
+    width: 25%;
+    background-image: url(https://i.pinimg.com/originals/24/d7/ec/24d7ec8bb462a9568a900a22ca57aba4.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    float: left;
+}
+
+
+.content{
+    width: 75%;
+    float: right;
+    height: 100%;
+    padding-left:30px;
+    overflow: auto;
+}
+
+.content h1{
+    margin-bottom: 5px;
+}
+
